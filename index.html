@@ -22,12 +22,20 @@
       margin: 20px;
       font-size: 2rem;
     }
+    p {
+      margin: 20px;
+    }
   </style>
 </head>
 <body>
   <H1>
 	ジンバルロックを試すやつ
   </H1>
+  <p>
+    オイラー角で2番の軸回りの回転角が90°だった場合(例えば、ZXYオイラーで指定した場合、X軸周りの回転)、1番目と3番目の軸周りの回転角度の指定が同じ回転を表すものになってしまう。
+    <br>
+    オイラー角のタイプ(XYZ, YZX, ZXY, ...)を指定し、"Gimbal lock"ボタンを押すと2番目の回転角を90°に設定する。
+  </p>
   <script type="module" src="./main.js"></script>
 </body>
 </html>
