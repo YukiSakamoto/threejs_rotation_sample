@@ -89,7 +89,7 @@ function init() {
   gui_x = euler_angle_folder.add(euler_angle, 'x', -180, 180).name('Rotate X');
   gui_y = euler_angle_folder.add(euler_angle, 'y', -180, 180).name('Rotate Y');
   gui_z = euler_angle_folder.add(euler_angle, 'z', -180, 180).name('Rotate Z');
-  euler_angle_folder.add(euler_angle, 'type', ['XYZ', 'YZX', 'ZXY', 'XZV', 'YXZ', 'ZYX']);
+  euler_angle_folder.add(euler_angle, 'type', ['XYZ', 'YZX', 'ZXY', 'XZY', 'YXZ', 'ZYX']);
   euler_angle_folder.add(euler_angle, 'gimbal_lock').name('Gimbal Lock');
   euler_angle_folder.add(euler_angle, 'reset').name('Reset');
 
